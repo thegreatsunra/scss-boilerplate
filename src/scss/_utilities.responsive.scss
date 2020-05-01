@@ -1,126 +1,107 @@
 // TODO: Most of these are probably unnecessary
+// TODO: The names are bad too. Calling it visible when it's display and there's a property called visibility? That's just bad.
 
-// @mixin hidden {
-//   display: none;
-// }
+.u-is-hidden {
+  display: none;
+}
+.u-is-visibleblock {
+  display: block;
+}
+.u-is-visibleinline {
+  display: inline;
+}
+.u-is-visibleinlineblock {
+  display: inline-block;
+}
+.u-is-visibleflex {
+  display: flex;
+}
 
-// @mixin visibleblock {
-//   display: block;
-// }
+@include mq($from: xs) {
+  .u-is-hidden\@xs {
+    display: none;
+  }
+  .u-is-visibleblock\@xs {
+    display: block;
+  }
+  .u-is-visibleinline\@xs {
+    display: inline;
+  }
+  .u-is-visibleinlineblock\@xs {
+    display: inline-block;
+  }
+  .u-is-visibleflex\@xs {
+    display: flex;
+  }
+}
 
-// @mixin visibleinline {
-//   display: inline;
-// }
+@include mq($from: sm) {
+  .u-is-hidden\@sm {
+    display: none;
+  }
+  .u-is-visibleblock\@sm {
+    display: block;
+  }
+  .u-is-visibleinline\@sm {
+    display: inline;
+  }
+  .u-is-visibleinlineblock\@sm {
+    display: inline-block;
+  }
+  .u-is-visibleflex\@sm {
+    display: flex;
+  }
+}
 
-// @mixin visibleinlineblock {
-//   display: inline-block;
-// }
+@include mq($from: md) {
+  .u-is-hidden\@md {
+    display: none;
+  }
+  .u-is-visibleblock\@md {
+    display: block;
+  }
+  .u-is-visibleinline\@md {
+    display: inline;
+  }
+  .u-is-visibleinlineblock\@md {
+    display: inline-block;
+  }
+  .u-is-visibleflex\@md {
+    display: flex;
+  }
+}
 
-// @mixin visibleflex {
-//   display: flex;
-// }
-
-// .u-is-hidden {
-//   @include hidden;
-// }
-// .u-is-visibleblock {
-//   @include visibleblock;
-// }
-// .u-is-visibleinline {
-//   @include visibleinline;
-// }
-// .u-is-visibleinlineblock {
-//   @include visibleinlineblock;
-// }
-// .u-is-visibleflex {
-//   @include visibleflex;
-// }
-
-// @include mq($from: xs) {
-//   .u-is-hidden\@xs {
-//     @include hidden;
-//   }
-//   .u-is-visibleblock\@xs {
-//     @include visibleblock;
-//   }
-//   .u-is-visibleinline\@xs {
-//     @include visibleinline;
-//   }
-//   .u-is-visibleinlineblock\@xs {
-//     @include visibleinlineblock();
-//   }
-//   .u-is-visibleflex\@xs {
-//     @include visibleflex;
-//   }
-// }
-
-// @include mq($from: sm) {
-//   .u-is-hidden\@sm {
-//     @include hidden;
-//   }
-//   .u-is-visibleblock\@sm {
-//     @include visibleblock;
-//   }
-//   .u-is-visibleinline\@sm {
-//     @include visibleinline;
-//   }
-//   .u-is-visibleinlineblock\@sm {
-//     @include visibleinlineblock();
-//   }
-//   .u-is-visibleflex\@sm {
-//     @include visibleflex;
-//   }
-// }
-
-// @include mq($from: md) {
-//   .u-is-hidden\@md {
-//     @include hidden;
-//   }
-//   .u-is-visibleblock\@md {
-//     @include visibleblock;
-//   }
-//   .u-is-visibleinline\@md {
-//     @include visibleinline;
-//   }
-//   .u-is-visibleinlineblock\@md {
-//     @include visibleinlineblock();
-//   }
-//   .u-is-visibleflex\@md {
-//     @include visibleflex;
-//   }
-// }
-
-// @include mq($from: lg) {
-//   .u-is-hidden\@lg {
-//     @include hidden;
-//   }
-//   .u-is-visibleblock\@lg {
-//     @include visibleblock;
-//   }
-//   .u-is-visibleinline\@lg {
-//     @include visibleinline;
-//   }
-//   .u-is-visibleinlineblock\@lg {
-//     @include visibleinlineblock();
-//   }
-//   .u-is-visibleflex\@lg {
-//     @include visibleflex;
-//   }
-// }
-// @include mq($from: xl) {
-//   .u-is-hidden\@xl {
-//     @include hidden;
-//   }
-//   .u-is-visibleblock\@xl {
-//     @include visibleblock;
-//   }
-//   .u-is-visibleinline\@xl {
-//     @include visibleinline;
-//   }
-//   .u-is-visibleinlineblock\@xl {
-//     @include visibleinlineblock();
-//   }
-//   .u-is-visibleflex\@xl {
-//     @include visibleflex;
-//   }
-// }
+@include mq($from: lg) {
+  .u-is-hidden\@lg {
+    display: none;
+  }
+  .u-is-visibleblock\@lg {
+    display: block;
+  }
+  .u-is-visibleinline\@lg {
+    display: inline;
+  }
+  .u-is-visibleinlineblock\@lg {
+    display: inline-block;
+  }
+  .u-is-visibleflex\@lg {
+    display: flex;
+  }
+}
+@include mq($from: xl) {
+  .u-is-hidden\@xl {
+    display: none;
+  }
+  .u-is-visibleblock\@xl {
+    display: block;
+  }
+  .u-is-visibleinline\@xl {
+    display: inline;
+  }
+  .u-is-visibleinlineblock\@xl {
+    display: inline-block;
+  }
+  .u-is-visibleflex\@xl {
+    display: flex;
+  }
+}

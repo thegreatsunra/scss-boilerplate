@@ -1,0 +1,13 @@
+{
+  "name": "scss-boilerplate",
+  "version": "0.1.0",
+  "description": "SCSS Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Dane Petersen",
+  "license": "MIT",
+  "devDependencies": {
+  }
+}

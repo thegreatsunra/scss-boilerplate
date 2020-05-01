@@ -1,3 +1,5 @@
+// TODO: Should Settings + Tools + Generic be combined into one layer? What should it be called? What about the fact that the order of items within each layer is not supposed to matter?
+
 /* SETTINGS */
 
 @import "settings.variables";
@@ -18,8 +20,10 @@ $mq-breakpoints: (
 @import "~sass-mq/mq";
 
 /* GENERIC */
+// TODO: Configure base stuff in Normalize
 @import "generic.normalize";
 @import "generic.box-sizing";
+// generic.fonts
 
 /* ELEMENTS */
 
@@ -28,19 +32,19 @@ $mq-breakpoints: (
 @import "elements.links";
 @import "elements.paragraphs";
 @import "elements.lists";
-// elements.images
+// @import "elements.images";
 
 /* OBJECTS */
 
-// objects.layout
+// @import "objects.layout";
 
 /* COMPONENTS */
 
-// components.header
-// components.footer
-// components.content
-// components.navigation
-// components.images
+// @import "components.header";
+// @import "components.footer";
+// @import "components.content";
+// @import "components.navigation";
+// @import "components.images";
 
 /* UTILITIES */
 

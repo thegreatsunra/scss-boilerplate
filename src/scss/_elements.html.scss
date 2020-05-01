@@ -1,9 +1,9 @@
 html {
   font-size: $base-font-size;
   line-height: $base-line-height;
-  font-family: Monaco;
-  background-color: $base-background-color-dark;
-  color: $base-text-color-light;
+  font-family: $base-font-family;
+  background-color: $base-background-color-light;
+  color: $base-text-color-dark;
 }
 
 body {

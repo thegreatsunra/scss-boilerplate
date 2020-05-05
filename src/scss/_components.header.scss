@@ -1,0 +1,14 @@
+.c-header {
+  margin: $base-spacing-unit--xl * 2 0;
+  &__heading {
+    font-size: $base-font-size * 2;
+    line-height: $base-spacing-unit--xl;
+    margin: 0 0 $base-spacing-unit 0;
+    padding: 0;
+  }
+  &__subheading {
+    font-size: $base-font-size;
+    line-height: $base-spacing-unit--md;
+    margin: 0 0 $base-spacing-unit--lg;
+  }
+}

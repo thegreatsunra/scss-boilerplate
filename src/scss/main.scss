@@ -40,7 +40,8 @@ $mq-breakpoints: (
 
 /* COMPONENTS */
 
-// @import "components.header";
+@import "components.header";
+@import "components.button";
 // @import "components.footer";
 // @import "components.content";
 // @import "components.navigation";

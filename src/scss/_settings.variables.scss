@@ -1,8 +1,17 @@
-$base-font-size: 16px;
-$base-line-height: $base-font-size * 2 / $base-font-size;
-$base-spacing-unit: $base-font-size;
+$base-spacing-unit: 16px;
+$base-font-size: $base-spacing-unit * 1.125; // 18px;
+$base-line-height: $base-spacing-unit * 1.5 / $base-spacing-unit;
 $base-background-color-light: #ffffff;
 $base-text-color-dark: #000000;
 $base-background-color-dark: #000000;
 $base-text-color-light: #ffffff;
+$base-brand-color: #0066ff;
+
 $base-font-family: Helvetica, Arial, sans-serif;
+
+$base-spacing-unit--xs: $base-spacing-unit / 4;
+$base-spacing-unit--sm: $base-spacing-unit / 2;
+$base-spacing-unit--md: $base-spacing-unit * 1.5;
+$base-spacing-unit--lg: $base-spacing-unit * 2;
+$base-spacing-unit--xl: $base-spacing-unit * 3;
+$base-spacing-unit--xxl: $base-spacing-unit * 4;

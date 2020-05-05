@@ -1,0 +1,27 @@
+.c-button {
+  &__link {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: $base-font-size;
+    line-height: $base-spacing-unit--md;
+    background-color: $base-brand-color;
+    color: $base-text-color-light;
+    border-radius: $base-spacing-unit--xl;
+    padding: $base-spacing-unit $base-spacing-unit--xl;
+    &:link,
+    &:visited {
+      color: $base-text-color-light;
+      background-color: $base-brand-color;
+    }
+    &:hover {
+      color: $base-text-color-light;
+      background-color: lighten($base-brand-color, 0.2);
+    }
+    &:active,
+    &:focus {
+      color: $base-text-color-light;
+      background-color: $base-brand-color;
+    }
+  }
+}
